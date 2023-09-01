@@ -16,7 +16,8 @@ code {
 body {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  color: #3f4850;
+  color: #333;
+  background-color: #ffffe0;
 }
 
 h2 {
@@ -38,12 +39,13 @@ a {
   max-width: 460px;
   display: flex;
   margin: 0 auto 32px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .search-form button {
   outline: none;
-  background-color: #438bbd;
-  border: none;
+  background-color: #FFD700;
+  border: 3px solid #333;
   padding: 0px 15px;
   border-radius: 0 0.35em 0.35em 0;
   cursor: pointer;
@@ -54,7 +56,7 @@ input {
   width: 100%;
   background-color: #edeff0;
   padding: 10px 15px;
-  border: 3px solid #d7dbdf;
+  border: 3px solid #333;
   border-right: none;
   border-radius: 0.35em 0 0 0.35em;
   outline: none;
@@ -67,16 +69,18 @@ input {
 
 .main-nav a {
   display: block;
-  background: #438bbd;
+  background-color: #FFD700;
+  border: 3px solid #333;
   border-radius: 3px;
   padding: 5px;
-  color: #fff;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .main-nav .active,
 .main-nav a:hover,
 .search-form button:hover {
-  background-color: #275270;
+  background-color: #ac9200;
 }
 
 .photo-container ul {
@@ -92,6 +96,9 @@ input {
   height: 165px;
   overflow: hidden;
   margin-bottom: 15px;
+  border: 3px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .photo-container ul img {
