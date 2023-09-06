@@ -1,6 +1,17 @@
 # React-Gallery-App-Full-Stack-Techdegree-7
  A photo gallery application with a search function for different topics, using an API connection to Flickr.
 
+'Using the powerful Create React App tool, you'll set up the initial project.
+
+Then you will:
+- Use JavaScript and JSX to build out the gallery components in a modular fashion.
+- Use React Router to set up routes for three default topic pages and a search page.
+- Use the Fetch API or a tool like Axios to fetch data from the Flickr API and use it to display images in your app.
+- Add logic to handle the search and various requirements of the project.
+- Add to the supplied CSS to personalize the project.
+
+React has a bit of a learning curve and can feel difficult to work with at first, but with hard work, time, and practice, it can be mastered by anyone.'
+
 Includes: 
 Routes
 - Routes declared between the Home Route, and the resultant Gallery Route when a search is made, as well as a Gallery Route when the pre-defined buttons are clicked - that all change the URL correspondingly.
